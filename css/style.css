@@ -1,0 +1,377 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf) format(ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf) format(ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+html, body{
+    
+    margin: 0;
+    background-color: #E5E5E5;
+    font-family: 'Roboto';
+ }
+
+
+.link{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+.top-header{
+    background-color: #EFEFEF;
+    padding: 16px 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+.top-header .link{
+    margin: 0 15px;
+    font-size: 14px;
+    color: #333333;
+    display: inline-block;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+.link-button{
+    width: 170px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    text-align: center;
+    height: 40px;
+    line-height: 36px;
+}
+
+.header{
+    padding: 40px 0;
+    border-bottom:1px solid #EFEFEF;
+    background-color: #FFFFFF;
+}
+
+hr{
+    margin: 0;
+    border: 1px solid #EFEFEF;
+    display: block;
+}
+
+.contact-info .link-button{
+    margin-left: 40px;
+}
+
+.logo-text{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.beauty-logo{
+    margin:-20px 0;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.header-bottom{
+    padding: 30px 0;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.header-bottom .link{
+    margin: 0 40px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.eye-catcher{
+    width: 100%;
+    height: 604px;
+    background-position: center ;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    padding-top: 192px;
+}
+
+.ad-name{
+   
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.ad-text{
+    width: 308px;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.eye-catcher .link-button{
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    margin: 50px;
+}
+
+
+.goods-header{
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 80px 0 38px ;
+}
+
+
+.product-card {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 255px;
+    height: 363px;
+    margin-right: 30px;
+}
+
+.last{
+    margin-right: 0;
+}
+
+.product-card img{
+    margin: 25px 65px 0 65px;
+    width: 125px;
+    height: 166px;
+}
+
+.item-desc{
+    
+    font-size: 14px;
+    text-align: center;
+    width: 195px;
+    height: 33px;
+    margin: 20px 30px;
+}
+
+.item-price{
+  
+    font-weight: 700;
+    font-size: 21px;
+    height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.small-button{
+    width: 130px;
+    border-radius: 30px;
+    height: 35px;
+    background: #F13C6E;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 20px 63px 22px 62px;
+}
+
+.email-card, .store-card{
+    display: inline-block;
+    background-color: #F13C6E;;
+    width: 540px;
+    height: 212px;
+    color: #FFFFFF;
+}
+
+.card-info{
+    margin-right: 30px;
+    padding: 35px 45px 35px 40px;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom:25px;
+}
+
+.card-desc{
+    font-size: 14px;
+    line-height: 20px;
+    width: 129px;
+    height: 40px;
+}
+
+.email-card input{
+    position: absolute;
+    width: 225px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 30px;
+    padding-left: 25px;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 16px;
+    outline:0;
+}
+
+.email-card input::placeholder{
+    color: #C4C4C4;
+}
+
+
+.external-section{
+    margin: 100px 0;
+}
+
+.email-logo img{
+    margin: 52.73px 45px;
+}
+
+.store-card .link-button{
+    border: 2px solid #FFFFFF;
+    height: 35px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+.store-card-logo img{
+   margin: 56px 45.33px 0 0;
+}
+
+.partners-section{
+    padding-top: 1px;
+}
+
+.partner{
+    border: 1px solid #EFEFEF;;
+    width: calc(25% + 1px) ;
+    display: inline-block;
+    margin: -1px 0 0 -1px;
+    background: #FFFFFF;
+}
+
+.partner-link{
+    display: inline-block;
+    padding: 35px 60px;
+}
+
+.partner-logo{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.top-footer{
+    background-color: #FFFFFF;
+    height: 493px;
+    margin-top: 80px;
+    padding: 60px 0 60px 0;
+}
+
+.top-footer-block{
+    width: 255px;
+    height: 253px;  
+    margin-right: 30px;
+    margin-bottom: 60px;
+    
+}
+
+.top-footer-block:last-of-type{
+    margin-right: 0;
+}
+
+
+.top-footer-header{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140.62%;
+    margin-bottom: 30px;
+}
+
+ul, li{
+    list-style: none;
+    padding-left: 0;
+    list-style-type: none; 
+}
+
+
+li>a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.top-footer-categories{
+    margin-left: 0;
+}
+
+.footer-middle{
+    border: 1px solid red;
+}
+
+.footer-links{
+    margin: 37px 0 38px 0;
+}
+
+.social-media-logo{
+    margin-right: 20px;
+}
+
+
+.social-media-link .link-button{
+    line-height: 32px;
+    border-color: #F13C6E;
+    margin: 3px 0 2px;
+}
+
+.phone{
+    margin: 13px 40px 13px 0;
+}
+
+.footer{
+    height: 64px;
+}
+
+.footer-info{
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    padding: 25px 0;
+}
